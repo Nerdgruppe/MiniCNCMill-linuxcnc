@@ -1,0 +1,6 @@
+# Include your custom HAL commands here
+# This file will not be overwritten when you run PNCconf again
+#keypad matrix
+#loadrt matrix_kb config=8x8
+#addf matrix_kb.0 servo-thread
+#net keypad hm2_7i76e.0.7i73.0.1.keycode => matrix_kb.0.keycode
